@@ -2,8 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: white;
     background-color: rgb(61, 61, 61);
+    height: 98vh;
 }
 h1{
     font: normal 30pt Arial
@@ -48,4 +50,13 @@ h4{
 }
 #resultado-imc{
     font-family: sans-serif;
+}
+footer{
+    font-family: sans-serif;
+
+}
+@media (max-width: 389px) {
+    h1{
+        font-size: 28px;
+    }
 }
